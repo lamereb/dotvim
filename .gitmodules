@@ -14,3 +14,7 @@
 	path = bundle/vim-blackboard
 	url = https://github.com/lisposter/vim-blackboard.git
     ignore = dirty
+[submodule "bundle/synic"]
+	path = bundle/synic
+	url = https://github.com/synic/synic.vim.git
+    ignore = dirty
