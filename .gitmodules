@@ -18,3 +18,7 @@
 	path = bundle/synic
 	url = https://github.com/synic/synic.vim.git
     ignore = dirty
+[submodule "bundle/vim-fugitive"]
+	path = bundle/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+    ignore = dirty

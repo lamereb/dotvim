@@ -33,21 +33,6 @@ nmap <F10> :TlistToggle<CR>
 
 set tags=./TAGS;/       " 5/13/17 - to search recursively back for tags file
 
-"set filetype=html
-"set autoindent
-"set smartindent
-
-"inoremap <F3> <Right>
-"inoremap ' ''<Left>
-"inoremap " ""<Left>
-"inoremap <F5> {<CR><CR>}<Up>
-"inoremap ( ()<Left>
-
-"6/25/14 - for weird flip server issue where Backspace doesn't work
-"inoremap ^? <Left><Delete>
-
-"source /usr/local/etc/vimrc_files/reasonably_stable_mappings.vim
-
 " laptop
 set hlsearch
 au BufNewFile,BufRead *.hbs set filetype=html
