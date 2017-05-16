@@ -1,19 +1,19 @@
-###Installation:
+### Installation:
 ```
 git clone git://github.com/lamereb/dotvim.git ~/.vim
 ```
 
-###Create symlink:
+### Create symlink:
 ```
 ln -s ~/.vim/vimrc ~/.vimrc
 ```
 
-###Fetch submodules:
+### Fetch submodules:
 ```
 cd ~/.vim && git submodule update --init
 ```
 
-###Adding a new plugin:
+### Adding a new plugin:
 ```
 cd ~/.vim && git submodule add path/to/plugname.git bundle/plugname
 git add .
