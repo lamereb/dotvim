@@ -25,3 +25,4 @@
 [submodule "molokai"]
 	path = molokai
 	url = https://github.com/tomasr/molokai.git
+    ignore = dirty
