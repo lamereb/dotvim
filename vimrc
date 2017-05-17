@@ -36,3 +36,7 @@ set tags=./TAGS;/       " 5/13/17 - to search recursively back for tags file
 " laptop
 set hlsearch
 au BufNewFile,BufRead *.hbs set filetype=html
+
+execute "set <A-]>=\e]"
+map <A-]> :vsp <CR>:exec("tag ".expand("<cword>"))<CR>
+
