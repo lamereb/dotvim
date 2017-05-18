@@ -22,3 +22,7 @@
 	path = bundle/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
     ignore = dirty
+[submodule "bundle/molokai_dark"]
+	path = bundle/molokai_dark
+	url = https://github.com/fcevado/molokai_dark
+    ignore = dirty
