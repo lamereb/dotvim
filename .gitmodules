@@ -26,3 +26,7 @@
 	path = bundle/molokai_dark
 	url = https://github.com/fcevado/molokai_dark
     ignore = dirty
+[submodule "bundle/molokai"]
+	path = bundle/molokai
+	url = https://github.com/tomasr/molokai.git
+    ignore = dirty
